@@ -1,0 +1,18 @@
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+
+/* Premium utility — radial gradient background */
+.bg-gradient-radial {
+  background-image: radial-gradient(var(--tw-gradient-stops));
+}
+
+/* Premium utility — white/8 opacity bg */
+.bg-white\/8 { background-color: rgba(255, 255, 255, 0.08); }
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+/* Prevent horizontal scroll on mobile */
+body { overflow-x: hidden; }
